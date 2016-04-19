@@ -26,3 +26,13 @@ Create a task in tasks.php
 Call task in command line
 
     pc test
+    
+#### How to use with modules
+
+    $app->task('concat', function() {
+    
+        $this->src('js/*.js');
+        $this->next('concat', 'main.js');
+        $this->dest(); // current directory
+    
+    });
