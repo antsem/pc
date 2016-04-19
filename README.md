@@ -62,31 +62,31 @@ Display help
     
 #### PC API
 
-##### src(globs)
+##### src(array|string pattern)
 
 Uses php glob function
 
-##### dest(folder)
+##### dest(string folder)
 
 Saves the files in the specified directory
 
-##### module(moduleName)
+##### module(string moduleName)
 
 Load module
 
-##### task(taskName)
+##### task(string taskName)
 
 Create a task
 
-##### run(taskName)
+##### run(string taskName)
 
 Run task
 
-##### next(moduleName, options)
+##### next(string|callable module, array|string options)
 
 Use module
 
-##### config(index)
+##### config(string index)
 
 Returns a user configuration data
 
