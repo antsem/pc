@@ -36,3 +36,60 @@ Call task in command line
         $this->dest(); // current directory
     
     });
+    
+* * *
+    
+#### App commands
+
+All global commands start with a double dash
+
+##### --init or --i
+
+Create a directory in the user project
+
+    .tools
+    - pc
+    -- modules
+    -- tasks
+    -- tasks.php
+    -- config.php
+
+##### --help or --h
+
+Display help
+
+* * *
+    
+#### PC API
+
+##### src(globs)
+
+Uses php glob function
+
+##### dest(folder)
+
+Saves the files in the specified directory
+
+##### module(moduleName, options)
+
+Load module
+
+##### task(taskName)
+
+Create a task
+
+##### run(taskName)
+
+Run task
+
+##### next(moduleName)
+
+Use module
+
+##### config(index)
+
+Returns a user configuration data
+
+##### srcList()
+
+It displays the selected files
