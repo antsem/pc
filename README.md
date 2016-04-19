@@ -70,7 +70,7 @@ Uses php glob function
 
 Saves the files in the specified directory
 
-##### module(moduleName, options)
+##### module(moduleName)
 
 Load module
 
@@ -82,7 +82,7 @@ Create a task
 
 Run task
 
-##### next(moduleName)
+##### next(moduleName, options)
 
 Use module
 
